@@ -5,7 +5,7 @@ function Layout({ children }) {
   return (
     <div>
       <Sidebar />
-      <div minH={"80vh"}>{children}</div>
+      <div>{children}</div>
       <Footer />
     </div>
   );

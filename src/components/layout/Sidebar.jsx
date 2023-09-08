@@ -7,6 +7,7 @@ import baselineToken from "../../Assets/baseline-token.svg";
 import pair from "../../Assets/fluent_pair-24-filled.svg";
 import hamburger from "../../Assets/Vector (1).svg";
 import { NavLink } from "react-router-dom";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const Sidebar = () => {
   return (
@@ -89,9 +90,6 @@ const Sidebar = () => {
           <div className="heading">
             <h1>NFTify</h1>
           </div>
-        </div>
-        <div className="sec">
-          <button>Connect</button>
         </div>
       </div>
     </>
